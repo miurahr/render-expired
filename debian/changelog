@@ -1,3 +1,9 @@
+render-expired (1.0-2) precise; urgency=low
+
+  * Update debian section  
+
+ -- Hiroshi Miura <miurahr@linux.com>  Tue, 21 May 2013 07:47:59 +0900
+
 render-expired (1.0-1) precise; urgency=low
 
   * Initial release.
