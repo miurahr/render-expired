@@ -5,11 +5,11 @@ Maintainer: Hiroshi Miura <miurahr@linux.com>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev
 Standards-Version: 3.9.2
 Homepage: https://github.com/miurahr/render-expired
-#Vcs-Git: git://git.debian.org/collab-maint/render-expired.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/render-expired.git;a=summary
 
 Package: render-expired
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: cut out utility of mod_tile
+ render-expired is a part of mod_tile and renderd.
+ Here is a cut-out utility to use with osmfj/tilecache 
+ and tirex.
