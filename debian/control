@@ -2,13 +2,14 @@ Source: render-expired
 Section: utils
 Priority: extra
 Maintainer: Hiroshi Miura <miurahr@linux.com>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libiniparser-dev
 Standards-Version: 3.9.2
 Homepage: https://github.com/miurahr/render-expired
 
 Package: render-expired
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libiniparser
+Recommends: tirex-core
 Description: cut out utility of mod_tile
  render-expired is a part of mod_tile and renderd.
  Here is a cut-out utility to use with osmfj/tilecache 

@@ -1,8 +1,9 @@
 render-expired (1.0-1~ppa2) precise; urgency=low
 
   * Update debian package description
+  * Add dependency to libiniparser 
 
- -- Hiroshi Miura <miurahr@linux.com>  Tue, 21 May 2013 07:57:00 +0900
+ -- Hiroshi Miura <miurahr@linux.com>  Tue, 21 May 2013 08:22:12 +0900
 
 render-expired (1.0-1~ppa1) precise; urgency=low
 
